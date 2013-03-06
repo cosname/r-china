@@ -1,0 +1,20 @@
+/* Conference Print Style */
+#KSU_brandBar{
+	display: none;
+}
+
+#skip-links{
+	display: none;
+}
+#logo a{
+	color: #000;
+	font-size: 24pt;
+	font-weight: bold;
+	text-decoration: none;
+}
+#side-nav{
+	display: none;
+}
+#footer{
+	display: none;
+}

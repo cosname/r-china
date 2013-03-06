@@ -1,0 +1,44 @@
+/* Conference Specific Changes */
+body{background: #e0c890 url(../images/body-bkgrd.jpg) 50% 0 no-repeat !important }
+
+#KSU_brandBar{margin: 0 auto; width: 768px}
+
+/* Conference Typography Style */
+h1,h2,h3,h4,h5,h6{color: #c44630}
+h1{font-size: 197%;font-family:georgia, 'times new roman', times, serif; }
+blockquote{background-color: #ddd; margin-bottom: 1.5em}
+
+/* Conference Core Style */
+a{color: #41589c}
+a:active,a:focus,a:hover{color: #59b8e8}
+a:visited{color: #945a42}
+
+#wrapper{background-color: transparent}
+#content{background-color: #fff9e0; min-height: 500px; _height: 500px; padding-left: 20px; padding-right: 20px;}
+
+/* Header image and information */
+#header{margin: 0}
+#header a{background: transparent; color: #fff; display: block; height: 175px; width: 768px}
+
+/* Side navigation - first column */
+#side-nav{background-color: #677d7a}
+#side-nav ul{padding-bottom: 0}
+#side-nav a{border-top: 1px solid #ddd; color: #eee}
+#side-nav a:active,#side-nav a:focus,#side-nav a:hover{background-color: #eee; color: #111}
+a#side-nav-15{border-bottom: 1px solid #eee} /* Sets bottom border on navigation items - be sure to set to correct number */
+/* Sets the "you are here" effect */
+body#overview a#side-nav-1,body#registration a#side-nav-2,body#program a#side-nav-3, body#speakers a#side-nav-4, body#workshop a#side-nav-5,body#posters a#side-nav-6,body#students a#side-nav-7,body#general-information a#side-nav-8,body#social a#side-nav-9, body#call-for-presentations a#side-nav-10, body#poster-presenters a#side-nav-11, body#proceedings a#side-nav-12, body#sponsors a#side-nav-13, body#contact a#side-nav-14, body#past-presenters a#side-nav-16, body#history a#side-nav-17{background-color: #b07549; color: #eee; font-weight: bold}
+
+/* Main content - second column */
+#main-content{margin-right: 0}
+#content table th{background-color: #b07549; color: #eee}
+#content table td{border-top: 1px solid #aaa; border-bottom: 1px solid #aaa}
+#content table tr, #content table td{background-color: transparent !important}
+
+/* Additional content - third column */
+#right-column{display: none}
+
+#footer{background: #C2AC79; height: 55px; margin: -84px auto 0 auto; width: 768px}
+
+.important {color: #f00}
+.rounded-corner{border-bottom-right-radius: 20px; -webkit-border-bottom-right-radius: 20px; -khtml-border-bottom-right-radius: 20px; -moz-border-radius-bottomright: 20px}

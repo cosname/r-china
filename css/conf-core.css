@@ -1,0 +1,216 @@
+/* Global imports */
+@import "http://yui.yahooapis.com/2.2.2/build/reset/reset-min.css"; /* Yahoo's Reset */
+@import "http://www.k-state.edu/KSU_resources/css/brandbar.css";	/* K-State's Brandbar */
+@import "/conf/css/conf-typography.css";	/* Conference Global Typography */
+/* Conference Core Style */
+body{
+	background: transparent url(/conf/images/header-wrapper-bkgrd.png) 0 0 repeat-x;
+	height: 100%; /* For the sticky footer */
+	margin: 0 auto;
+	text-align: center;
+}
+/* Changes to the K-State Brandbar */
+#KSU_brandBar{
+	border-top: none;
+}
+.KSU_hidden{
+	display: none;
+}
+
+a{
+	color: #0000ff;
+}
+a:active,a:focus,a:hover{
+	color: #ff0000;
+}
+a:visited{
+	color: #6600ff;
+}
+
+abbr,acronym{
+	border-bottom: 1px dotted #ccc;
+	cursor: help;
+}
+/* Skip navigation/content/footer links */
+ul#skip-links{
+	left: -9000px;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top: -9000px;
+	z-index : 9;
+}
+ul#skip-links a:focus,ul#skip-links a:active, ul#skip-links a:hover{
+	background-color: #7417a9;
+	border: 1px solid #ccc;
+	color: #fff;
+	font-weight: bold;
+	left: 9050px;
+	padding: 1em;
+	position: absolute;
+	top: 9050px;
+	width: 6em;
+	z-index: 9;
+}
+/* Page wrapper */
+#wrapper{
+	margin: 0 auto;
+	min-height: 100%; /* For the sticky footer */
+	position: relative;
+	text-align: left;
+	width: 768px;
+}
+*html #wrapper{ /* For the sticky footer */
+	height: 100%;
+}
+/* Conference logo */
+#logo{
+	height: 100px;
+	width: 300px;
+}
+#logo a{
+	display: block;
+	height: 90px;
+	text-indent: -9999px;
+	width: 275px;
+}
+/* Top navigation */
+#top-nav{
+	background: #4c4d4f;
+	margin: -29px 0 0 300px;
+	min-height: 29px;
+	text-align: right
+}
+/* Top information used instead of top navigation */
+#top-info{
+	color: #fff;
+	font-size: 138.5%;
+	padding: .2em .5em;
+}
+/* Header image and information */
+#header{
+	background-color:  #E0FFFF;
+	height: 175px;
+	margin: 7px 0;
+	width: 768px;
+}
+#header p{
+	text-indent: -9999px;
+}
+/* Content wrapper */
+#content{
+	padding-top: 1.5em;
+}
+/* Side navigation - first column */
+#side-nav{
+	float: left;
+	width: 175px;
+}
+#side-nav ul{
+	padding-bottom: 2em;
+	padding-left: 0;
+}
+#side-nav ul li{
+	display: inline;
+}
+#side-nav a{
+	border-top: 1px solid #000;
+	color: #000;
+	display: block;
+	padding: .25em;
+	text-decoration: none;
+}
+#side-nav a:active,#side-nav a:focus,#side-nav a:hover{
+	background-color: #ff0000;
+}
+#side-nav ul li ul{
+	padding-bottom: 0;
+}
+#side-nav ul li ul a{
+	border: none;
+	padding-left: 1.5em;
+}
+ul#sub-nav-1,ul#sub-nav-2,ul#sub-nav-3,ul#sub-nav-4,ul#sub-nav-5,ul#sub-nav-6,ul#sub-nav-7,ul#sub-nav-8,ul#sub-nav-9,ul#sub-nav-10{
+	display: none; /* Hides sub navigation - use conf-specific to reveal */
+}
+/* Main content - second column */
+#main-content{
+	margin-left: 175px;
+	margin-right: 175px;
+	padding: 0 1.5em;
+	width: auto;
+}
+table{
+	border-collapse: collapse;
+	margin-bottom: 1.5em;
+	width: 99%;
+}
+table caption{
+	display: none;
+}
+table th{
+	background-color: #eee;
+	line-height: 1.5em;
+	padding: .5em .25em;
+}
+table td{
+	border-bottom: 1px solid #d1d9df;
+	border-top: 1px solid #d1d9df;
+	line-height: 1.5em;
+	padding: .5em .25em;
+	vertical-align: top;
+}
+.top-link{
+	margin-bottom: .5em;
+	text-align: right;
+}
+.top-link a{
+	background: url(/images/aarow-up.png) top right no-repeat;
+	font-size: 85%;
+	padding: .5em 1.25em .5em 0;
+	text-transform: capitalize;
+}
+/* Additional content - third column */
+#right-column{
+	float: right;
+	width: 175px;
+}
+/* Footer */
+#clear-div{ /* Compensates for sticky footer's negative margin and clears IE */
+	clear: both; 
+	height: 84px;
+}
+#footer{
+	clear: both;
+	background: transparent url(/conf/images/footer-bkgrd.gif) 0 0 repeat-x;
+	font-size:	85%;
+	height: 84px;
+	margin-top: -84px;
+	position: relative;
+}
+#footer a{
+	color: #fff;
+	font-weight: normal;
+	text-decoration: none;
+}
+#footer a:active,#footer a:focus,#footer a:hover{
+	color: #fff;
+	text-decoration: underline;
+}
+#footer ul{
+	list-style: none;
+	margin: 0;
+	padding: .5em 0 0 0;
+}
+#footer li{
+	color: #fff;
+	display: inline;
+	padding: 0 0 0 1em;
+}
+#footer ul#footer-nav li{
+	border-right: 1px #fff solid;
+	padding-right: 1em;
+}
+#footer ul#footer-nav li:last-child{
+	border: none;
+} 

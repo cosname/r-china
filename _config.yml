@@ -1,0 +1,12 @@
+markdown:         rdiscount
+pygments:         false
+paginate:         8
+
+title:            "China R Conference"
+baseurl:          /r-china
+feed:             atom.xml
+author:
+    name:         Chen Yanping
+    email:        yanping.chen@cos.name
+description:      "China R Conference"
+
