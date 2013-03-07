@@ -24,4 +24,4 @@ Workshop registration includes:
 <li>Lunch</li>
 <li>Workshop materials</li>
 
-Syllabus can be found at http://supstat.com/cn/2013/03/06/r-basic-training/.
+<p>Syllabus can be found at http://supstat.com/cn/2013/03/06/r-basic-training/.</p>
